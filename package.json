@@ -1,6 +1,12 @@
 {
   "name": "react-modified-state",
   "version": "1.0.1",
+  "keywords": [
+    "react",
+    "state",
+    "modified",
+    "simple"
+  ],
   "description": "A modified version of react state.",
   "repository": "https://github.com/avibris/react-modified-state.git",
   "author": "Vineeth K <vineeth.freelanzr@gmail.com>",
