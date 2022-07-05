@@ -1,6 +1,6 @@
 {
   "name": "react-modified-state",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "keywords": [
     "react",
     "state",
@@ -11,14 +11,11 @@
   "repository": "https://github.com/avibris/react-modified-state.git",
   "author": "Vineeth K <vineeth.freelanzr@gmail.com>",
   "private": false,
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/esm/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "build": "tsc",
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
@@ -29,6 +26,8 @@
     "react": "^16.13.1 || ^17.0.0 || ^18.0.0"
   },
   "files": [
-    "/lib"
+    "/lib",
+    "index.js",
+    "index.d.ts"
   ]
 }
